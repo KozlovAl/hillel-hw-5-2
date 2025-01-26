@@ -1,3 +1,5 @@
+"use strict";
+
 function calculatePrice() {
     const exchangeRate = 26;
 
@@ -15,5 +17,5 @@ function calculatePrice() {
     alert(`${dollars} доларів коштує ${price} гривень`);
 }
 
-// Вызов функции
+
 calculatePrice();
